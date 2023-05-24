@@ -40,5 +40,22 @@
 
 
 
-let fullname = 'Alonso-Cupido'
-console.log(fullname);
+// let fullname = 'Alonso-Cupido'
+// console.log(fullname);
+
+
+// Question;2
+let me = {
+    firstName: "Alonso",
+    lastName: "Cupido",
+    age: 19,
+    subjects: ["english" , "math" , "Consumers" ,"business studies" , "Life science"],
+    address: {
+        streetName :"Cycad",
+        streetNumber: 15,
+        suburb: "Mitchells plain",
+        city: "Cape Town",
+        countryName: "South Africa"
+    }
+}
+console.log(me);
