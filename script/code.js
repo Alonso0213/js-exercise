@@ -45,17 +45,48 @@
 
 
 // Question;2
-let me = {
-    firstName: "Alonso",
-    lastName: "Cupido",
-    age: 19,
-    subjects: ["english" , "math" , "Consumers" ,"business studies" , "Life science"],
-    address: {
-        streetName :"Cycad",
-        streetNumber: 15,
-        suburb: "Mitchells plain",
-        city: "Cape Town",
-        countryName: "South Africa"
+// let me = {
+//     firstName: "Alonso",
+//     lastName: "Cupido",
+//     age: 19,
+//     subjects: ["english" , "math" , "Consumers" ,"business studies" , "Life science"],
+//     address: {
+//         streetName :"Cycad",
+//         streetNumber: 15,
+//         suburb: "Mitchells plain",
+//         city: "Cape Town",
+//         countryName: "South Africa"
+//     }
+// }
+// console.log(me);
+
+
+// Question3
+function calculate() {
+    let number1 = parseInt(document.getElementById("numb1").value);
+    let number2 = parseInt(document.getElementById("numb2").value);
+    let operator = document.getElementById("operator").value;
+
+    let result;
+
+    switch (operator) {
+        case "+":
+             result =number1 +number2
+             break;
+        case "-":
+            result = number1 - number2;
+            break;
+        case "*":
+            result = number1 * number2;
+            break;
+        case "/":
+            result = number1 / number2;
+            break;
+        default:
+            result = "error"          
     }
+    document.getElementById("answer").textContent= "result: "+ result;
 }
-console.log(me);
+
+  
+ 

@@ -1,0 +1,10 @@
+#form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: grey;
+}
+#p{
+    background-color: rgb(0, 0, 0);
+}
